@@ -1,0 +1,200 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should take a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg App css-1oqqzyl-MuiContainer-root"
+  >
+    <div
+      class="MuiBox-root css-ekq8qa"
+    >
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation3 css-3su884-MuiPaper-root"
+        style="width: 100%; padding: 16px;"
+      >
+        <h3
+          class="MuiTypography-root MuiTypography-h3 MuiTypography-alignCenter"
+          data-testid="header-text"
+        >
+          LEADER BOARD
+        </h3>
+        <p
+          class="MuiTypography-root MuiTypography-body2 MuiTypography-alignRight"
+        >
+          <label
+            class="MuiFormControlLabel-root"
+          >
+            <span
+              class="MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root MuiCheckbox-root MuiCheckbox-colorPrimary css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root"
+            >
+              <input
+                aria-label="controlled"
+                class="PrivateSwitchBase-input css-1m9pwf3"
+                data-indeterminate="false"
+                type="checkbox"
+                value="end"
+              />
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="CheckBoxOutlineBlankIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                />
+              </svg>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </span>
+            <span
+              class="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+            >
+              Sort By Average?
+            </span>
+          </label>
+        </p>
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiTableContainer-root css-11xur9t-MuiPaper-root-MuiTableContainer-root"
+        >
+          <table
+            aria-label="customized table"
+            class="MuiTable-root css-1pclhgl-MuiTable-root"
+          >
+            <thead
+              class="MuiTableHead-root css-15wwp11-MuiTableHead-root"
+            >
+              <tr
+                class="MuiTableRow-root MuiTableRow-head css-1q1u3t4-MuiTableRow-root"
+              >
+                <th
+                  class="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeMedium css-1wvnaxz-MuiTableCell-root"
+                  scope="col"
+                >
+                  Name
+                </th>
+                <th
+                  class="MuiTableCell-root MuiTableCell-head MuiTableCell-alignCenter MuiTableCell-sizeMedium css-og52vs-MuiTableCell-root"
+                  scope="col"
+                >
+                  Score
+                </th>
+                <th
+                  class="MuiTableCell-root MuiTableCell-head MuiTableCell-alignCenter MuiTableCell-sizeMedium css-og52vs-MuiTableCell-root"
+                  scope="col"
+                >
+                  Clicks
+                </th>
+                <th
+                  class="MuiTableCell-root MuiTableCell-head MuiTableCell-alignCenter MuiTableCell-sizeMedium css-og52vs-MuiTableCell-root"
+                  scope="col"
+                >
+                  Average
+                </th>
+              </tr>
+            </thead>
+            <tbody
+              class="MuiTableBody-root css-apqrd9-MuiTableBody-root"
+            />
+          </table>
+        </div>
+        <hr
+          class="MuiDivider-root MuiDivider-middle"
+          style="margin: 16px 0px;"
+        />
+        <div
+          class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+          data-testid="player-name"
+          style="margin: 16px 0px;"
+        >
+          <label
+            class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined Mui-required Mui-required"
+            data-shrink="false"
+          >
+            Player Name
+            <span
+              aria-hidden="true"
+              class="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+            >
+               *
+            </span>
+          </label>
+          <div
+            class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+          >
+            <input
+              aria-invalid="false"
+              class="MuiInputBase-input MuiOutlinedInput-input"
+              required=""
+              type="text"
+              value=""
+            />
+            <fieldset
+              aria-hidden="true"
+              class="PrivateNotchedOutline-root-1 MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                class="PrivateNotchedOutline-legendLabelled-3"
+              >
+                <span>
+                  Player Name *
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+        </div>
+        <h6
+          class="MuiTypography-root MuiTypography-h6 MuiTypography-alignCenter"
+          data-testid="score"
+        >
+          Score: 0
+          <br />
+          <span
+            class="MuiTypography-root MuiTypography-caption"
+            data-testid="counter"
+          >
+            10 clicks left.
+          </span>
+        </h6>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-outlinedSizeLarge MuiButton-sizeLarge Mui-disabled MuiButton-fullWidth Mui-disabled"
+          data-testid="score-button"
+          disabled=""
+          style="margin: 8px 0px;"
+          tabindex="-1"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-button"
+            >
+              Score
+            </span>
+          </span>
+        </button>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge Mui-disabled MuiButton-fullWidth Mui-disabled"
+          data-testid="send-button"
+          disabled=""
+          tabindex="-1"
+          type="submit"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-button"
+            >
+              Send it!
+            </span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

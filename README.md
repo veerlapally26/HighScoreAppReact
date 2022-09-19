@@ -6,6 +6,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm run server`
+
+Runs the json-server app\
+Open [http://localhost:5000/scoredata](http://localhost:5000/scoredata) to view server data in your browser.
+
 ### `npm start`
 
 Runs the app in the development mode.\
